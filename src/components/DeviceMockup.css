@@ -1,0 +1,100 @@
+.device-stage {
+  position: relative;
+  perspective: 1400px;
+  width: 100%;
+  padding: 30px 10px 46px;
+}
+
+.device-glow {
+  position: absolute;
+  inset: -10% -5%;
+  background: radial-gradient(ellipse at 50% 40%, rgba(76, 201, 240, 0.16), transparent 65%);
+  filter: blur(10px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.device-frame {
+  position: relative;
+  z-index: 1;
+  transform: rotateX(6deg) rotateY(-14deg) translateZ(0);
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  background: linear-gradient(155deg, #1a2038, #0d1224);
+  border-radius: 12px;
+  border: 1px solid var(--line-bright);
+  box-shadow:
+    0 40px 80px -20px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(255, 255, 255, 0.02) inset,
+    0 -40px 60px -40px rgba(76, 201, 240, 0.15) inset;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.device-topbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid var(--line);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-a { background: #ff6b6b55; }
+.dot-b { background: #ffb84c55; }
+.dot-c { background: #4cc9f055; }
+
+.device-url {
+  margin-left: 10px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-faint);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+}
+
+.device-screen {
+  aspect-ratio: 16 / 10;
+  background: #05070d;
+  overflow: hidden;
+}
+
+.device-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.device-edge {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  pointer-events: none;
+}
+
+.device-reflection {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: -8px;
+  height: 40px;
+  background: radial-gradient(ellipse at center, rgba(76, 201, 240, 0.18), transparent 70%);
+  filter: blur(6px);
+  z-index: 0;
+}
+
+@media (max-width: 640px) {
+  .device-frame {
+    transform: rotateX(3deg) rotateY(-6deg) translateZ(0) !important;
+  }
+}

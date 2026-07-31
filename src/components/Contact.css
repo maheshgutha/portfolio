@@ -1,0 +1,50 @@
+.contact-inner {
+  text-align: center;
+  max-width: 620px;
+  padding-bottom: 40px;
+}
+
+.contact-inner .eyebrow {
+  justify-content: center;
+}
+.contact-inner .eyebrow::before { display: none; }
+
+.contact-title {
+  font-size: clamp(28px, 4.5vw, 44px);
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.contact-sub {
+  color: var(--text-dim);
+  font-size: 15.5px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.contact-email {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: clamp(16px, 2.4vw, 20px);
+  color: var(--cyan);
+  border-bottom: 1px solid var(--line-bright);
+  padding-bottom: 4px;
+  margin-bottom: 40px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.contact-links a { color: var(--text-dim); }
+.contact-links a:hover { color: var(--text); }
+
+.contact-foot {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--text-faint);
+}

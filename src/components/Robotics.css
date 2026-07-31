@@ -1,0 +1,54 @@
+.robotics-strip {
+  overflow: hidden;
+  margin: 36px 0 10px;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+
+.robotics-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: robotics-scroll 44s linear infinite;
+}
+
+.robotics-strip:hover .robotics-track {
+  animation-play-state: paused;
+}
+
+@keyframes robotics-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.robotics-card {
+  flex: 0 0 auto;
+  width: 320px;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--bg-alt);
+  padding: 0;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.robotics-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--line-bright);
+}
+
+.robotics-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .robotics-track { animation: none; }
+}
+
+@media (max-width: 640px) {
+  .robotics-card { width: 220px; height: 155px; }
+}
