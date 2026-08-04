@@ -48,3 +48,9 @@
   transition: background 0.2s ease;
 }
 .lightbox-close:hover { background: rgba(255, 255, 255, 0.08); }
+
+@media (max-width: 480px) {
+  .lightbox { padding: 18px; }
+  .lightbox-close { top: 14px; right: 14px; width: 36px; height: 36px; font-size: 18px; }
+  .lightbox-img { max-height: 70vh; }
+}
