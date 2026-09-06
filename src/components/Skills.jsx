@@ -7,12 +7,12 @@ const groups = [
   { label: 'Databases', items: ['MongoDB', 'SQL'] },
   {
     label: 'AI & Voice',
-    items: ['LLM integration (GPT-4.1 mini)', 'STT / TTS pipelines', 'Exotel', 'Twilio'],
+    items: ['LLM integration (GPT-4/3.5-turbo)', 'STT / TTS pipelines', 'Telephony (Exotel, Twilio)', 'Prompt Engineering'],
   },
-  { label: 'Tools & Platforms', items: ['Git', 'GitHub', 'Docker', 'AWS', 'Render', 'Vercel'] },
+  { label: 'Tools & Platforms', items: ['Git', 'GitHub', 'Docker', 'AWS', 'Postman', 'Render', 'Vercel'] },
   {
     label: 'CS Fundamentals',
-    items: ['DSA', 'OOP', 'DBMS', 'System Design', 'JWT / Auth', 'ML', 'Deep Learning'],
+    items: ['DSA', 'OOP', 'OS', 'DBMS', 'Computer Networks', 'System Design', 'Auth & Authorization', 'MVC', 'JWT', 'ML', 'Deep Learning'],
   },
 ]
 
@@ -35,3 +35,4 @@ export default function Skills() {
     </section>
   )
 }
+

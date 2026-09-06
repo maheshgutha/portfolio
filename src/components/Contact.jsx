@@ -20,8 +20,9 @@ export default function Contact() {
           <a href="/resume.pdf" download>Résumé (PDF)</a>
         </div>
 
-        <p className="contact-foot">Vijayawada, AP · +91 8639271799</p>
+        <p className="contact-foot">Vijayawada, AP · +91 8897071769</p>
       </div>
     </section>
   )
 }
+

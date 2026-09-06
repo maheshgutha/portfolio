@@ -2,27 +2,28 @@ import './Experience.css'
 
 const roles = [
   {
-    title: 'AI Agents & Full-Stack Developer Intern — AOTMS',
+    title: 'AI Agent & Full-Stack Developer Intern — AOTMS',
     date: 'Present',
     points: [
-      'Contribute to an AI-powered automated calling system in a TeleCRM product across Node.js services, LLM prompt integration, and speech-to-text/text-to-speech pipelines.',
-      'Build React frontend features for live campaign/lead views with real-time status polling and call control actions.',
-      'Supported a Twilio → Exotel telephony migration with WebSocket-based call streaming; containerized services with Docker.',
+      'Contribute to an AI-powered automated calling system in a TeleCRM product, working across Node.js services, LLM prompt integration, and speech-to-text/text-to-speech pipelines.',
+      'Build frontend features for live campaign/lead views with real-time status polling and call control actions.',
+      'Supported Twilio → Exotel telephony migration with WebSocket-based call streaming; containerized services with Docker.',
+      'Collaborate with an ML engineer to debug latency issues across the calling pipeline and improve reliability.',
     ],
   },
   {
     title: 'Full-Stack Developer Intern — AOTMS',
-    date: 'May 2026 – Jun 2026',
+    date: 'May 2024 – Jun 2024',
     points: [
       'Built a full-stack restaurant management platform (MERN) for a U.S.-based client, including an admin dashboard and ordering flow.',
-      'Designed REST APIs and MongoDB models; deployed and maintained the app on Render and Vercel.',
+      'Designed REST APIs, MongoDB models, and authentication; deployed and maintained the app on Render and Vercel.',
     ],
   },
   {
-    title: 'Python Programming Intern — Vaishnav Technologies',
-    date: 'May 2025 – Jun 2025',
+    title: 'Python Programming Intern — Vaishnavi Technologies',
+    date: 'May 2023 – Jun 2023',
     points: [
-      'Built 3 Python projects covering file-handling automation, OOP-based data processing, and workflow utilities under the Startup India & Skill India initiative.',
+      'Built 2 Python projects (file handling automation, OOP-based data processing, workflow utilities) under the Startup India & Skill India initiative (Cert No: VTP 741978).',
     ],
   },
 ]
@@ -53,3 +54,4 @@ export default function Experience() {
     </section>
   )
 }
+
