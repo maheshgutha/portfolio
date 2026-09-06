@@ -13,15 +13,6 @@ const projects = [
     githubLink: 'https://github.com/AOTMS2026/telecommunication',
   },
   {
-    title: 'AI-Powered HR Recruitment Automation Platform',
-    url: 'github.com/maheshgutha/AI-Powered-HR-Recruitment-Automation-Platform',
-    description:
-      'End-to-end recruitment pipeline where HR posts job positions and students apply directly, eliminating manual intake work. Features an ATS-style resume scanning/ranking engine and an AI validation layer that automatically triggers skill assessments for shortlisted candidates.',
-    tech: ['Node.js', 'React', 'Supabase', 'Python FastAPI', 'spaCy', 'BERT', 'JWT', 'Tailwind CSS'],
-    liveLink: '#',
-    githubLink: 'https://github.com/maheshgutha/AI-Powered-HR-Recruitment-Automation-Platform',
-  },
-  {
     title: 'AI-Powered Real-Time Sign Language Translation System',
     url: 'github.com/maheshgutha/AI-Sign-Language-Robotic-Hand',
     description:
