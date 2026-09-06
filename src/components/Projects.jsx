@@ -14,14 +14,14 @@ const projects = [
   },
   {
     title: 'AI-Powered Real-Time Sign Language Translation System',
-    url: 'github.com/maheshgutha/AI-Sign-Language-Robotic-Hand',
+    url: 'github.com/maheshgutha/AI-Powered-Sign-Language-Translation-Using-Computer-Vision-and-Robotic-Hand',
     description:
       'Real-time hand-gesture recognition converted to speech and replicated via a servo-driven robotic hand for hearing/speech-impaired users. Features bidirectional text-to-sign translation, cloud logging, a live analytics dashboard, and automated Telegram alerts.',
     tech: ['Python', 'OpenCV', 'MediaPipe', 'Arduino', 'React', 'Supabase'],
     image: '/projects/project-sign-language-hand.jpg',
     liveLink: '#',
     githubLink:
-      'https://github.com/maheshgutha/AI-Sign-Language-Robotic-Hand',
+      'https://github.com/maheshgutha/AI-Powered-Sign-Language-Translation-Using-Computer-Vision-and-Robotic-Hand',
   },
   {
     title: 'Placement & Internship Management Portal',
