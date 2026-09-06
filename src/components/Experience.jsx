@@ -3,7 +3,7 @@ import './Experience.css'
 const roles = [
   {
     title: 'AI Agent & Full-Stack Developer Intern — AOTMS',
-    date: 'Present',
+    date: 'Jul 2026 – Aug 2026',
     points: [
       'Contribute to an AI-powered automated calling system in a TeleCRM product, working across Node.js services, LLM prompt integration, and speech-to-text/text-to-speech pipelines.',
       'Build frontend features for live campaign/lead views with real-time status polling and call control actions.',
@@ -13,7 +13,7 @@ const roles = [
   },
   {
     title: 'Full-Stack Developer Intern — AOTMS',
-    date: 'May 2024 – Jun 2024',
+    date: 'May 2026 – Jun 2026',
     points: [
       'Built a full-stack restaurant management platform (MERN) for a U.S.-based client, including an admin dashboard and ordering flow.',
       'Designed REST APIs, MongoDB models, and authentication; deployed and maintained the app on Render and Vercel.',
@@ -21,7 +21,7 @@ const roles = [
   },
   {
     title: 'Python Programming Intern — Vaishnavi Technologies',
-    date: 'May 2023 – Jun 2023',
+    date: 'May 2025 – Jun 2025',
     points: [
       'Built 2 Python projects (file handling automation, OOP-based data processing, workflow utilities) under the Startup India & Skill India initiative (Cert No: VTP 741978).',
     ],
