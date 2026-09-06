@@ -25,13 +25,13 @@ const projects = [
   },
   {
     title: 'Placement & Internship Management Portal',
-    url: 'github.com/maheshgutha/internship',
+    url: 'github.com/enugulameghana4567/internship',
     description:
       'Secure full-stack placement workflow app serving 1,000+ pilot users, built around an NLP resume-screening engine that improved candidate-job matching accuracy by 30%. Implemented encrypted auth, RBAC, an AI eligibility chatbot, and bias-aware ranking logic for fair candidate shortlisting.',
     tech: ['React', 'Python', 'Flask', 'SQL', 'NLP'],
     image: '/projects/project-placement-portal.png',
     liveLink: '#',
-    githubLink: 'https://github.com/maheshgutha/internship',
+    githubLink: 'https://github.com/enugulameghana4567/internship',
   },
   {
     title: 'BiryaniBox — Restaurant Management System',
